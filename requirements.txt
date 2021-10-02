@@ -5,5 +5,4 @@
 azure-functions
 azure-loganalytics
 requests
-msrestazure
 azure-cli-core
