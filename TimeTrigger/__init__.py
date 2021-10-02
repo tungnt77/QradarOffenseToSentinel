@@ -25,7 +25,7 @@ shared_key = os.environ["sharedKey"]
 
 
 # The log type is the name of the event that is being submitted
-log_type = 'QRadarOffense'
+log_type = 'QRadarOffense_CL'
 
 # The SPN credentials for querying Azure Log Analytics 
 get_offenese_ids_query = "{0}_CL | project id_d".format(log_type)
